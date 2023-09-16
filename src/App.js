@@ -10,7 +10,7 @@ const App=(props) => {
   
   // const [pageSize, setPageSize] = useState(5)
   const [progress, setProgress] = useState(0)
-  const [apiKey, setApiKey] = useState(process.env.REACT_APP_NEWS_API)
+  const [apiKey] = useState(process.env.REACT_APP_NEWS_API)
 
 //  setProgress=(progress)=>{
 //     setState({progress:progress})
